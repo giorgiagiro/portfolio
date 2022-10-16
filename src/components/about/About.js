@@ -14,7 +14,7 @@ const About = () => {
           <div className="about-text">
             <h2>Who am I?</h2>
             <p>
-              I'm Matt{' '}
+              I'm Marco{' '}
               <span role="img" aria-label="lightning">
                 😄
               </span>{' '}

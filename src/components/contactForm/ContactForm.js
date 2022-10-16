@@ -1,113 +1,113 @@
-import React, { useState } from 'react'
-import './ContactForm.css'
-import TextField from '@material-ui/core/TextField'
-import Button from '@material-ui/core/Button'
-import { makeStyles } from '@material-ui/core/styles'
+import React, { useState } from "react";
+import "./ContactForm.css";
+import TextField from "@material-ui/core/TextField";
+import Button from "@material-ui/core/Button";
+import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
   email: {
-    '& > *': {
+    "& > *": {
       marginBottom: theme.spacing(2),
-      backgroundColor: '#3b4353',
-      color: 'white',
-      '&:hover': {
-        backgroundColor: '#3b4353',
-        color: 'white',
+      backgroundColor: "#3b4353",
+      color: "white",
+      "&:hover": {
+        backgroundColor: "#3b4353",
+        color: "white",
       },
-      '&.Mui-focused': {
-        backgroundColor: '#3b4353',
-        color: 'white',
+      "&.Mui-focused": {
+        backgroundColor: "#3b4353",
+        color: "white",
       },
-      '&.MuiFilledInput-underline:before': {
-        borderBottom: '2px solid #6f7b9b',
+      "&.MuiFilledInput-underline:before": {
+        borderBottom: "2px solid #6f7b9b",
       },
-      '&.MuiFilledInput-underline:after': {
-        borderBottom: '2px solid #258b9e',
+      "&.MuiFilledInput-underline:after": {
+        borderBottom: "2px solid #258b9e",
       },
     },
   },
   message: {
-    '& > *': {
+    "& > *": {
       marginBottom: theme.spacing(2),
-      backgroundColor: '#3b4353',
-      color: 'white',
-      '&:hover': {
-        backgroundColor: '#3b4353',
-        color: 'white',
+      backgroundColor: "#3b4353",
+      color: "white",
+      "&:hover": {
+        backgroundColor: "#3b4353",
+        color: "white",
       },
-      '&.Mui-focused': {
-        backgroundColor: '#3b4353',
-        color: 'white',
+      "&.Mui-focused": {
+        backgroundColor: "#3b4353",
+        color: "white",
       },
-      '&.MuiFilledInput-underline:before': {
-        borderBottom: '2px solid #6f7b9b',
+      "&.MuiFilledInput-underline:before": {
+        borderBottom: "2px solid #6f7b9b",
       },
-      '&.MuiFilledInput-underline:after': {
-        borderBottom: '2px solid #258b9e',
+      "&.MuiFilledInput-underline:after": {
+        borderBottom: "2px solid #258b9e",
       },
     },
   },
   submit: {
-    '&': {
-      backgroundColor: '#39b175',
-      boxShadow: 'none',
-      '&:hover': {
-        backgroundColor: '#6de9ab',
-        boxShadow: 'none',
+    "&": {
+      backgroundColor: "#39b175",
+      boxShadow: "none",
+      "&:hover": {
+        backgroundColor: "#6de9ab",
+        boxShadow: "none",
       },
     },
-    '& > *': {
-      color: 'white',
-      fontSize: '15px',
-      fontWeight: '600',
+    "& > *": {
+      color: "white",
+      fontSize: "15px",
+      fontWeight: "600",
     },
   },
-}))
+}));
 
 const ContactForm = () => {
-  const [status, setStatus] = useState('')
-  const [emailText, setEmailText] = useState('')
-  const [messageText, setMessageText] = useState('')
+  const [status, setStatus] = useState("");
+  const [emailText, setEmailText] = useState("");
+  const [messageText, setMessageText] = useState("");
 
-  const classes = useStyles()
+  const classes = useStyles();
 
   const submitForm = (ev) => {
-    ev.preventDefault()
-    const form = ev.target
-    const data = new FormData(form)
-    const xhr = new XMLHttpRequest()
-    xhr.open(form.method, form.action)
-    xhr.setRequestHeader('Accept', 'application/json')
+    ev.preventDefault();
+    const form = ev.target;
+    const data = new FormData(form);
+    const xhr = new XMLHttpRequest();
+    xhr.open(form.method, form.action);
+    xhr.setRequestHeader("Accept", "application/json");
     xhr.onreadystatechange = () => {
-      if (xhr.readyState !== XMLHttpRequest.DONE) return
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
       if (xhr.status === 200) {
-        setEmailText('')
-        setMessageText('')
-        form.reset()
-        setStatus('SUCCESS')
+        setEmailText("");
+        setMessageText("");
+        form.reset();
+        setStatus("SUCCESS");
       } else {
-        setStatus('ERROR')
+        setStatus("ERROR");
       }
-    }
-    xhr.send(data)
-  }
+    };
+    xhr.send(data);
+  };
 
   const handleEmailChange = (event) => {
-    const input = String(event.target.value)
-    setEmailText(input)
-  }
+    const input = String(event.target.value);
+    setEmailText(input);
+  };
 
   const handleMessageChange = (event) => {
-    const input = String(event.target.value)
-    setMessageText(input)
-  }
+    const input = String(event.target.value);
+    setMessageText(input);
+  };
 
   return (
     <div className="contact-form-wrapper">
       <form
         className="contact-form"
         onSubmit={submitForm}
-        action="https://formspree.io/mvolplar"
+        action="https://formspree.io/xoqblgro"
         method="POST"
       >
         <TextField
@@ -130,17 +130,17 @@ const ContactForm = () => {
           rows="5"
           variant="filled"
         />
-        {status === 'SUCCESS' ? (
+        {status === "SUCCESS" ? (
           <p className="email-success">Thanks!</p>
         ) : (
           <Button className={classes.submit} type="submit" variant="contained">
             Submit
           </Button>
         )}
-        {status === 'ERROR' && <p>Ooops! There was an error.</p>}
+        {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
     </div>
-  )
-}
+  );
+};
 
-export default ContactForm
+export default ContactForm;

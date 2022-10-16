@@ -8,28 +8,27 @@ import Typewriter from "typewriter-effect";
 import ArrowDropDownCircleIcon from "@material-ui/icons/ArrowDropDownCircle";
 import Navbar from "../navbar/Navbar";
 import config from "../../config";
-import profile from "../../images/matt.png";
-import linkedin from "../../images/social/linkedin.png";
+import profile from "../../images/profile-bgdark.png";
+import linkedinLogo from "../../images/social/linkedin.png";
+import githubLogo from "../../images/social/github.png";
+import cvLogo from "../../images/social/curriculum-vitae.png";
 import { loadFull } from "tsparticles";
 import { useCallback } from "react";
 
 const Home = () => {
   const particlesInit = useCallback(async (engine) => {
     console.log(engine);
-    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-    // starting from v2 you can add only the features you need reducing the bundle size
     await loadFull(engine);
-  }, []);
-  const particlesLoaded = useCallback(async (container) => {
-    await console.log(container);
   }, []);
   const [imageLoaded, setImageLoaded] = useState(false);
   return (
     <div className="home-wrapper">
       <div className="home">
-        <Particles className="particles" params={config.particles} />
-        <Particles id="tsparticles" url="http://foo.bar/particles.json" init={particlesInit} loaded={particlesLoaded} />
+        <Particles
+          className="particles"
+          params={config.particles}
+          init={particlesInit}
+        />
         <div className={`greeting${!imageLoaded ? " hide" : ""}`}>
           <Fade bottom distance="40px">
             <img
@@ -39,13 +38,8 @@ const Home = () => {
               onLoad={() => setImageLoaded(true)}
             />
             <h1 className="greeting-text">
-              Hi, I'm{" "}
-              <span className="name">Marco Bertolino</span>.{" "}
-              <span
-                className="wave-emoji"
-                role="img"
-                aria-label="waving hand"
-              >
+              Hi, I'm <span className="name">Marco Bertolino</span>.{" "}
+              <span className="wave-emoji" role="img" aria-label="waving hand">
                 👋
               </span>
             </h1>
@@ -66,21 +60,42 @@ const Home = () => {
                 }}
               />
             </h1>
-            <Bounce cascade>
-              <div className="links">
-                <a
-                  href="https://www.linkedin.com/in/mjigalin/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={linkedin}
-                    alt="Linkedin Logo"
-                    width="50px"
-                  />
-                </a>
-              </div>
-            </Bounce>
+
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+              <Bounce cascade>
+                <div className="links">
+                  <a
+                    href="https://www.linkedin.com/in/marco-bertolino-/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img className="logoImage" src={linkedinLogo} alt="Linkedin Logo" width="50px" />
+                  </a>
+                </div>
+              </Bounce>
+              <Bounce cascade>
+                <div className="links">
+                  <a
+                    href="https://github.com/bertomaa"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img className="logoImage" src={githubLogo} alt="Github Logo" width="50px" />
+                  </a>
+                </div>
+              </Bounce>
+              <Bounce cascade>
+                <div className="links">
+                  <a
+                    href="./MarcoBertolino-cv.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img className="logoImage" src={cvLogo} alt="CV Logo" width="50px" />
+                  </a>
+                </div>
+              </Bounce>
+            </div>
             <div className="scroll-down">
               <Link
                 activeClass="active"
@@ -99,10 +114,11 @@ const Home = () => {
                 />
               </Link>
             </div>
+
           </Fade>
         </div>
-        <Navbar />
       </div>
+      <Navbar />
     </div>
   );
 };
