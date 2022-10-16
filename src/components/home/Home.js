@@ -1,23 +1,36 @@
-import React, { useState } from 'react'
-import './Home.css'
-import Fade from 'react-reveal/Fade'
-import { Bounce } from 'react-reveal'
-import { Link } from 'react-scroll'
-import Particles from 'react-particles-js'
-import Typewriter from 'typewriter-effect'
-import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle'
-import Navbar from '../navbar/Navbar'
-import config from '../../config'
-import profile from '../../images/matt.png'
-import linkedin from '../../images/social/linkedin.png'
+import React, { useState } from "react";
+import "./Home.css";
+import Fade from "react-reveal/Fade";
+import { Bounce } from "react-reveal";
+import { Link } from "react-scroll";
+import Particles from "react-tsparticles";
+import Typewriter from "typewriter-effect";
+import ArrowDropDownCircleIcon from "@material-ui/icons/ArrowDropDownCircle";
+import Navbar from "../navbar/Navbar";
+import config from "../../config";
+import profile from "../../images/matt.png";
+import linkedin from "../../images/social/linkedin.png";
+import { loadFull } from "tsparticles";
+import { useCallback } from "react";
 
 const Home = () => {
-  const [imageLoaded, setImageLoaded] = useState(false)
+  const particlesInit = useCallback(async (engine) => {
+    console.log(engine);
+    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+    // starting from v2 you can add only the features you need reducing the bundle size
+    await loadFull(engine);
+  }, []);
+  const particlesLoaded = useCallback(async (container) => {
+    await console.log(container);
+  }, []);
+  const [imageLoaded, setImageLoaded] = useState(false);
   return (
     <div className="home-wrapper">
       <div className="home">
         <Particles className="particles" params={config.particles} />
-        <div className={`greeting${!imageLoaded ? ' hide' : ''}`}>
+        <Particles id="tsparticles" url="http://foo.bar/particles.json" init={particlesInit} loaded={particlesLoaded} />
+        <div className={`greeting${!imageLoaded ? " hide" : ""}`}>
           <Fade bottom distance="40px">
             <img
               className="profile"
@@ -26,8 +39,13 @@ const Home = () => {
               onLoad={() => setImageLoaded(true)}
             />
             <h1 className="greeting-text">
-              Hi, I'm <span className="name">Matthew Jigalin</span>.{' '}
-              <span className="wave-emoji" role="img" aria-label="waving hand">
+              Hi, I'm{" "}
+              <span className="name">Marco Bertolino</span>.{" "}
+              <span
+                className="wave-emoji"
+                role="img"
+                aria-label="waving hand"
+              >
                 👋
               </span>
             </h1>
@@ -35,15 +53,15 @@ const Home = () => {
               <Typewriter
                 options={{
                   strings: [
-                    'I like to design things.',
-                    'I love learning new tech.',
-                    'I love meeting new people.',
-                    'I create unique digital experiences.',
+                    "I like to design things.",
+                    "I love learning new tech.",
+                    "I love meeting new people.",
+                    "I create unique digital experiences.",
                   ],
                   autoStart: true,
                   loop: true,
                   deleteSpeed: 10,
-                  cursor: '<',
+                  cursor: "<",
                   delay: 100,
                 }}
               />
@@ -55,7 +73,11 @@ const Home = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={linkedin} alt="Linkedin Logo" width="50px" />
+                  <img
+                    src={linkedin}
+                    alt="Linkedin Logo"
+                    width="50px"
+                  />
                 </a>
               </div>
             </Bounce>
@@ -70,7 +92,10 @@ const Home = () => {
               >
                 <ArrowDropDownCircleIcon
                   fontSize="large"
-                  style={{ pointerEvents: 'fill', cursor: 'pointer' }}
+                  style={{
+                    pointerEvents: "fill",
+                    cursor: "pointer",
+                  }}
                 />
               </Link>
             </div>
@@ -79,7 +104,7 @@ const Home = () => {
         <Navbar />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
