@@ -38,7 +38,7 @@ const Home = () => {
               onLoad={() => setImageLoaded(true)}
             />
             <h1 className="greeting-text">
-              Hi, I'm <span className="name">Marco Bertolino</span>.{" "}
+              HTB Hi, I'm <span className="name">Marco Bertolino</span>.{" "}
               <span className="wave-emoji" role="img" aria-label="waving hand">
                 👋
               </span>
@@ -61,7 +61,13 @@ const Home = () => {
               />
             </h1>
 
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
               <Bounce cascade>
                 <div className="links">
                   <a
@@ -69,7 +75,12 @@ const Home = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img className="logoImage" src={linkedinLogo} alt="Linkedin Logo" width="50px" />
+                    <img
+                      className="logoImage"
+                      src={linkedinLogo}
+                      alt="Linkedin Logo"
+                      width="50px"
+                    />
                   </a>
                 </div>
               </Bounce>
@@ -80,7 +91,12 @@ const Home = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img className="logoImage" src={githubLogo} alt="Github Logo" width="50px" />
+                    <img
+                      className="logoImage"
+                      src={githubLogo}
+                      alt="Github Logo"
+                      width="50px"
+                    />
                   </a>
                 </div>
               </Bounce>
@@ -91,7 +107,12 @@ const Home = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img className="logoImage" src={cvLogo} alt="CV Logo" width="50px" />
+                    <img
+                      className="logoImage"
+                      src={cvLogo}
+                      alt="CV Logo"
+                      width="50px"
+                    />
                   </a>
                 </div>
               </Bounce>
@@ -114,7 +135,6 @@ const Home = () => {
                 />
               </Link>
             </div>
-
           </Fade>
         </div>
       </div>

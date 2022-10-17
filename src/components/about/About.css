@@ -88,10 +88,10 @@
         align-items: center;
         border-radius: 2px 0px 0px 2px;
         left: 0;
-        width: 80px;
+        width: 100px;
         height: 30px;
         font-size: 12px;
-        background-color: #39b175;
+        background-color: rgb(80, 137, 156);
         font-weight: 600;
         color: white;
     }

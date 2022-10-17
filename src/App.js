@@ -8,6 +8,7 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import TopButton from "./components/topButton/TopButton";
 import Navbar from "./components/navbar/Navbar";
+// import Timeline from "./components/timeline/timeline";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Experience />
       <Projects />
+      {/* <Timeline /> */}
       <Contact />
       <Footer />
       <TopButton />

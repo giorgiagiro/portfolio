@@ -1,6 +1,7 @@
 .navbar {
     position: sticky;
-    bottom: -63px;
+    top: 0;
+    /* bottom: -63px; */
     width: 100%;
     height: 60px;
     display: flex;
@@ -8,7 +9,7 @@
     background-color: #23252a;
     border-bottom: 3px solid dodgerblue;
     pointer-events: fill;
-    margin-top: -60px;
+    /* margin-top: -60px; */
 }
 
 .navbar a {
