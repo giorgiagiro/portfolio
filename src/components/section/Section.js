@@ -1,10 +1,12 @@
-import React from 'react'
-import './Section.css'
-import { Fade } from 'react-reveal'
+import React from "react";
+import "./Section.css";
+import { Fade } from "react-reveal";
 
 const Section = (props) => {
+  const cn = props.classname ?? props.title;
+  console.log("🚀 ~ file: Section.js ~ line 7 ~ Section ~ cn", cn)
   return (
-    <section className={props.title.toLowerCase()}>
+    <section className={cn.toLowerCase()}>
       <Fade left duration={1000} distance="70px">
         <h1 className="section-title">{props.title}</h1>
       </Fade>
@@ -13,7 +15,7 @@ const Section = (props) => {
       </Fade>
       {props.children}
     </section>
-  )
-}
+  );
+};
 
-export default Section
+export default Section;

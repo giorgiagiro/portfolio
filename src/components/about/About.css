@@ -76,7 +76,7 @@
     border-radius: 2px 0px 0px 2px;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1300px) {
     .about-content {
         display: flex;
         justify-content: space-evenly;
@@ -97,7 +97,7 @@
     }
 }
 
-@media screen and (max-width: 959px) and (min-width: 600px) {
+@media screen and (max-width: 1300px) and (min-width: 600px) {
     .about-content {
         display: flex;
         flex-direction: column;

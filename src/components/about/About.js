@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 import { Link } from "react-scroll";
 import { Fade } from "react-reveal";
 import Section from "../section/Section";
-import Skills from "../skills/Skills";
+import Skills from "../skillsNew/Skills";
 
 const About = () => {
   return (

@@ -1,7 +1,7 @@
 module.exports = {
     particles: {
         particles: {
-            number: { value: 40 },
+            number: { value: 25 },
             color: { value: ["#444", "1e90ff", "#4169e1"] },
             //verde, verde scuro, verde chiaro["dodgerblue", "#008a3e", "#a3ffce"]
             opacity: {
@@ -34,7 +34,7 @@ module.exports = {
             },
         },
         interactivity: {
-            detect_on: "window",
+            detect_on: "parent",
             // activate
             events: {
                 onhover: {
