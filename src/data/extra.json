@@ -23,9 +23,9 @@
             "dateFrom": "2018",
             "dateTo": "Current",
             "info": [
-                "todo"
+                "Basic networking knowledge and tcp stack. "
             ],
-            "stack": ["todo"],
+            "stack": ["TCP/IP", "Networking", "ISO-OSI"],
             "logowidth": 80,
             "colourPrimary": "linear-gradient(to bottom, #F6D5F7, #FBE9D7)",
             "colourSecondary": "linear-gradient(to bottom, #F6D5F7, #FBE9D7)"
