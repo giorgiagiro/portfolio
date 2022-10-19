@@ -38,7 +38,7 @@ const Home = () => {
               onLoad={() => setImageLoaded(true)}
             />
             <h1 className="greeting-text">
-              GH test. Hi, I'm <span className="name">Marco Bertolino</span>.{" "}
+              GH test . Hi, I'm <span className="name">Marco Bertolino</span>.{" "}
               <span className="wave-emoji" role="img" aria-label="waving hand">
                 👋
               </span>
