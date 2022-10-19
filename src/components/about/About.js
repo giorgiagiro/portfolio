@@ -29,14 +29,18 @@ const About = () => {
               development with React, Firebase has always been my go-to backend.
             </>
             <br></br>
-            <p>
+            <>
               After my bachelor I continued my path with a <u>Cybersecurity</u>{" "}
-              double degree program managed by the
-              <a href="https://masterschool.eitdigital.eu/" target="_blank">
+              double degree program managed by the{" "}
+              <a
+                className="eitlink"
+                href="https://masterschool.eitdigital.eu/"
+                target="_blank"
+              >
                 European Institute of Tecnology
               </a>{" "}
               and I am currently enrolled in the second and last year.
-            </p>
+            </>
             <br></br>
             <>
               EIT gave me the chance to move from Italy to Finland for my first

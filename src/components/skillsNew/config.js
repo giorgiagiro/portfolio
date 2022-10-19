@@ -22,6 +22,10 @@ import Graph from "./../../images/skills/thegraph-logo.png";
 import Arweave from "./../../images/skills/arweave.png";
 import Flutter from "./../../images/skills/flutter.png";
 import NodeJS from "./../../images/skills/nodej-js.png";
+import Firebase from "./../../images/skills/firebase.png";
+import postgress from "./../../images/skills/postgress.png";
+import bash from "./../../images/skills/bashscripting.png";
+import cpp from "./../../images/skills/cpp.png";
 
 export const getSkill = (names) => {
     let toReturn = [];
@@ -46,19 +50,19 @@ export const skills = [{
         img: Hardhat,
     },
     {
-        name: "Waffle",
-        url: "https://getwaffle.io/",
-        img: Waffle,
+        name: "Bash Scripting",
+        url: "",
+        img: bash,
     },
     {
-        name: "Truffle",
-        url: "https://trufflesuite.com/",
-        img: Truffle,
+        name: "C++",
+        url: "https://hardhat.org/",
+        img: cpp,
     },
     {
-        name: "Ganache",
-        url: "https://trufflesuite.com/ganache/",
-        img: Ganache,
+        name: "Postgres SQL",
+        url: "https://www.postgresql.org/",
+        img: postgress,
     },
     {
         name: "Chainlink",
@@ -86,6 +90,11 @@ export const skills = [{
         img: Flutter,
     },
     {
+        name: "Firebase",
+        url: "https://firebase.google.com/",
+        img: Firebase,
+    },
+    {
         name: "React",
         url: "https://reactjs.org/",
         img: React,
@@ -94,11 +103,6 @@ export const skills = [{
         name: "EthersJS",
         url: "https://docs.ethers.io/v5/",
         img: Ethers,
-    },
-    {
-        name: "IPFS",
-        url: "https://ipfs.io/",
-        img: IPFS,
     },
     {
         name: "React Native",
