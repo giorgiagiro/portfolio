@@ -31,9 +31,10 @@ body {
 body {
     margin: 0;
     padding: 0;
-    background: #fefefe;
+    /*background: #fefefe;*/
+    background: #272b33;
     /*FIND colore di sfondo prima pagina, valore iniziale: 272b33, scuro: 161616*/
-    color: #333;
+    color: #fefefe;
     font-family: 'Montserrat', sans-serif;
     min-width: 320px;
     overflow-x: hidden;

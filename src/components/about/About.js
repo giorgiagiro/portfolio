@@ -14,9 +14,8 @@ const About = () => {
           <div className="about-text">
             <h2>Quick life summary:</h2>
             <>
-              Hello, I am Marco, I am 22 years old, during my bachelor(18 to 20)
-              I workded as an independent developer for different small
-              companies around my area.
+              Hello, I am Giorgia, I am 22 years old, I am a double-degree student at Aalto
+              University. During my studies I had the opportunity to learn and develop new skills while figuring out what are my passions.
             </>
             <br></br>
             <>
@@ -25,12 +24,17 @@ const About = () => {
             </>
             <br></br>
             <>
-              My biggest strenghts were mobile development with Flutter and Web
-              development with React, Firebase has always been my go-to backend.
+            I'm studying and working on projects to advance my technical knowledge, in particular, with React and Flutter.
             </>
             <br></br>
             <>
-              After my bachelor I continued my path with a <u>Cybersecurity</u>{" "}
+              After my bachelor I continued my path with a <a
+                className="eitlink"
+                href="https://masterschool.eitdigital.eu/human-computer-interaction-and-design"
+                target="_blank"
+              >
+                Human Computer Interaction and Design
+              </a>{" "}
               double degree program managed by the{" "}
               <a
                 className="eitlink"
@@ -39,12 +43,14 @@ const About = () => {
               >
                 European Institute of Tecnology
               </a>{" "}
-              and I am currently enrolled in the second and last year.
+              and I am currently enrolled in the second and last year. I choose this track by combining my
+Computer Science background and my passion for design.
+
             </>
             <br></br>
             <>
-              EIT gave me the chance to move from Italy to Finland for my first
-              year, and to France for the current one, giving me an amazing
+              EIT gave me the chance to move from Italy to Finland for my second
+              year, giving me an amazing
               international experience.
             </>
           </div>

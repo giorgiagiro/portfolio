@@ -7,8 +7,8 @@
 
 @media screen and (min-width: 1500px) {
     .profile {
-        width: 500px !important;
-        height: 500px !important;
+        width: 300px !important;
+        height: 300px !important;
     }
 }
 
@@ -70,7 +70,7 @@
     border-radius: 50%;
     /* -webkit-filter: drop-shadow(2px 1px 0 dodgerblue) drop-shadow(-1px -1px 0 dodgerblue); */
     /* filter: drop-shadow(2px 2px 0 dodgerblue) drop-shadow(-2px -2px 0 dodgerblue) drop-shadow(-2px 2px 0 dodgerblue) drop-shadow(2px -2px 0 dodgerblue); */
-    border: 0.35rem solid dodgerblue;
+    border: 0.35rem solid #E64C3C;
 }
 
 .greeting-text {
@@ -78,7 +78,7 @@
 }
 
 .name {
-    color: dodgerblue;
+    color: #E64C3C;
 }
 
 .logoImage:hover {

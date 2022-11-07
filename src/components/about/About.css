@@ -30,7 +30,7 @@
 }
 
 .textLink {
-    color: dodgerblue;
+    color: #E64C3C;
     cursor: pointer;
 }
 
@@ -72,7 +72,7 @@
     display: flex;
     flex-direction: column;
     height: 30px;
-    background-color: dodgerblue;
+    background-color: #E64C3C;
     border-radius: 2px 0px 0px 2px;
 }
 
@@ -97,8 +97,14 @@
     }
 }
 
-.eitlink:link {
-    color: lightblue;
+.eitlink {
+    color: #ec6354;
+    
+}
+
+.eitlink:hover {
+    color: #E64C3C;
+    
 }
 
 @media screen and (max-width: 1300px) and (min-width: 600px) {

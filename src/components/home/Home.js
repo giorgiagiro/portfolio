@@ -11,9 +11,10 @@ import config from "../../config";
 import profile from "../../images/profile-bgdark.png";
 import linkedinLogo from "../../images/social/linkedin.png";
 import githubLogo from "../../images/social/github.png";
-import cvLogo from "../../images/social/curriculum-vitae.png";
+import cvLogo from "../../images/social/resume.png";
 import { loadFull } from "tsparticles";
 import { useCallback } from "react";
+import mailLogo from "../../images/social/mail.png";
 
 const Home = () => {
   const particlesInit = useCallback(async (engine) => {
@@ -38,7 +39,7 @@ const Home = () => {
               onLoad={() => setImageLoaded(true)}
             />
             <h1 className="greeting-text">
-              GH test . Hi, I'm <span className="name">Marco Bertolino</span>.{" "}
+              Hi, I'm <span className="name">Giorgia Giro</span>.{" "}
               <span className="wave-emoji" role="img" aria-label="waving hand">
                 👋
               </span>
@@ -47,9 +48,9 @@ const Home = () => {
               <Typewriter
                 options={{
                   strings: [
-                    "I am a full stack web developer💻.",
-                    "I am studying cybersecurity for cloud☁️.",
-                    "I love blockchain⛓.",
+                    "I studied Computer Science Engineering💻.",
+                    "I am studying Human Computer Interaction and Design📱.",
+                    "I love video editing🎥.",
                   ],
                   autoStart: true,
                   loop: true,
@@ -71,7 +72,7 @@ const Home = () => {
               <Bounce cascade>
                 <div className="links">
                   <a
-                    href="https://www.linkedin.com/in/marco-bertolino-/"
+                    href="https://www.linkedin.com/in/giorgia-giro/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -87,7 +88,7 @@ const Home = () => {
               <Bounce cascade>
                 <div className="links">
                   <a
-                    href="https://github.com/bertomaa"
+                    href="https://github.com/giorgiagiro"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -103,7 +104,23 @@ const Home = () => {
               <Bounce cascade>
                 <div className="links">
                   <a
-                    href="./MarcoBertolino-cv.pdf"
+                    href="mailto:giorgia.giro@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      className="logoImage"
+                      src={mailLogo}
+                      alt="Mail Logo"
+                      width="50px"
+                    />
+                  </a>
+                </div>
+              </Bounce>
+              <Bounce cascade>
+                <div className="links">
+                  <a
+                    href="./GiorgiaGiroResume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -117,6 +134,13 @@ const Home = () => {
                 </div>
               </Bounce>
             </div>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            ></div>
             <div className="scroll-down">
               <Link
                 activeClass="active"

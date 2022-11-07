@@ -2,52 +2,49 @@
     "METTERE": "HTB",
     "experience": [{
             "id": 0,
-            "link": "https://www.rangerssicurezza.com/",
-            "company": "Rangers Vicenza",
-            "title": "C# Project Developer",
-            "dateFrom": "November 2019",
-            "dateTo": "January 2020",
+            "link": "https://www.msg.it/it/home/",
+            "company": "San Giacomo",
+            "title": "Programmer Intern",
+            "dateFrom": "April 2021",
+            "dateTo": "June 2021",
             "info": [
-                "I developed a managerial software. The company asked for a system able to keep track of the locations of all the keys of the places they have under surveillance.",
-                "An employer taking some keys is also going to annotate it into the server and sign the process with a touch interface."
+                "Internship as a programmer in a furniture factory where I collaborated in developing an internal software in java."
             ],
-            "stack": ["C#", "C# Forms"],
+            "stack": ["Java"],
             "logoheight": 80,
             "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)",
             "colourSecondary": "linear-gradient(to bottom, #f4592b, #f28d25)"
         },
         {
             "id": 1,
-            "link": "https://www.egugo.ai",
-            "company": "Edugo.ai",
-            "title": "Frontend Engineer Intern",
-            "dateFrom": "October 2020",
-            "dateTo": "April 2021",
+            "link": "https://www.dentalcoop.it/",
+            "company": "Dentalcoop",
+            "title": "Social Media Manager",
+            "dateFrom": "February 2017",
+            "dateTo": "February 2017",
             "info": [
-                "I developed, using React Native, the core functionalities of the Edugo.ai language learning app.",
-                "I developed some side features of the core web platform in React.js."
+                "An internship where I handled the post scheduling of Dentalcoop’s Facebook pages using Facebook for Business"
             ],
-            "stack": ["React.js", "React Native", "AntD", "Figma", "Node.js"],
+            "stack": ["Facebook", "Illustrator", "Excel"],
             "logowidth": 80,
-            "colourPrimary": "linear-gradient(to bottom, #465a90, #1e3470)",
-            "colourSecondary": "linear-gradient(to bottom, #465a90, #1e3470)"
+            "colourPrimary": "linear-gradient(to bottom, #5072A7, #B9D9EB)",
+            "colourSecondary": "linear-gradient(to bottom, #5072A7, #B9D9EB)"
         },
         {
             "id": 2,
-            "link": "https://www.idemconpatate.net/",
-            "company": "Idem con Patate",
-            "title": "Full stack Developer",
-            "dateFrom": "2019",
-            "dateTo": "Current",
+            "link": "https://www.youtube.com/watch?v=lVrodoiL3iY",
+            "company": "Neoinfinity",
+            "title": "Software Engineer Intern",
+            "dateFrom": "April 2021",
+            "dateTo": "June 2021",
             "info": [
-                "Fully developed with Flutter and Firebase the Idem mobile app.",
-                "Idem lets customers of this sandwich shop franchise register they purchases in the app. Clients can receive discounts and offers through the app.",
-                "A companion managment app was also developed."
+                "Internship developing interactive Virtual Tours through the use of commercial software and creating dynamic interfaces through the integration of js code.",
+                "In this company I had the opportunity to write my bachelor thesis Development and use of Virtual Tours for an immersive user experience."
             ],
-            "stack": ["Flutter", "Firebase", "App Publishment"],
+            "stack": ["React.js", "Python", "3DVista", "After Effects", "Illustrator","Filezilla"],
             "logowidth": 80,
-            "colourPrimary": "linear-gradient(to bottom, #F6D5F7, #FBE9D7)",
-            "colourSecondary": "linear-gradient(to bottom, #F6D5F7, #FBE9D7)"
+            "colourPrimary": "linear-gradient(to bottom, #17B169, #ACE1AF)",
+            "colourSecondary": "linear-gradient(to bottom, #17B169, #ACE1AF)"
         }
     ]
 }

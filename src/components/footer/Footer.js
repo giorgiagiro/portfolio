@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer>
       <p className="copyright">
-        Inspired by <a href="https://github.com/jigalin" target="_blank">Matthew Jigalin</a>
+        Inspired by <a className="copi" href="https://github.com/jigalin" target="_blank">Matthew Jigalin</a>
       </p>
     </footer>
   )

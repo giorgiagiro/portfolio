@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     background-color: #23252a;
-    border-bottom: 3px solid dodgerblue;
+    border-bottom: 3px solid #E64C3C;
     pointer-events: fill;
     /* margin-top: -60px; */
 }
