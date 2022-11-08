@@ -15,7 +15,7 @@ const About = () => {
             <h2>Quick life summary:</h2>
             <>
               Hello, I am Giorgia, I am 22 years old, I am a double-degree student at Aalto
-              University. During my studies I had the opportunity to learn and develop new skills while figuring out what are my passions.
+              University. During my studies in Information and Business Organisation Engineering I had the opportunity to learn and develop new skills while figuring out what are my passions.
             </>
             <br></br>
             <>
@@ -44,7 +44,7 @@ const About = () => {
                 European Institute of Tecnology
               </a>{" "}
               and I am currently enrolled in the second and last year. I choose this track by combining my
-Computer Science background and my passion for design.
+              Computer Science background and my passion for design.
 
             </>
             <br></br>

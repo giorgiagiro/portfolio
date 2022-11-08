@@ -18,7 +18,7 @@ function App() {
       <Experience />
       <Experience extra />
       {/* <Timeline /> */}
-      <Contact />
+      {/*<Contact />*/}
       <Footer />
       <TopButton />
     </div>
