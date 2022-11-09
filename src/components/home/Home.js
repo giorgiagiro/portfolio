@@ -161,8 +161,9 @@ const Home = () => {
             </div>
           </Fade>
         </div>
+        <Navbar />
       </div>
-      <Navbar />
+      
     </div>
   );
 };
