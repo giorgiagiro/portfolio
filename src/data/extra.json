@@ -1,50 +1,51 @@
 {
     "experience": [{
             "id": 1,
-            "link": "https://www.egugo.ai",
-            "company": "Edugo.ai",
-            "title": "Frontend Engineer Intern",
+            "link": "https://vrtour.neoinfinity.it/giorgia_giro/",
+            "company": "Neoinfinity",
+            "title": "Virtual Tour",
             "dateFrom": "October 2020",
             "dateTo": "April 2021",
             "info": [
-                "I developed, using React Native, the core functionalities of the Edugo.ai language learning app.",
-                "I developed some side features of the core web platform in React.js."
+                "Virtual tour developed for the company NeoInfinity, using React.js, python and 3DVista",
+                "Bachelor's thesis project"
             ],
-            "stack": ["React.js", "React Native", "AntD", "Figma", "Node.js"],
+            "stack": ["React.js", "Python", "3DVista", "Illustrator", "AfterEffects", "FIlezilla"],
             "logowidth": 80,
             "colourPrimary": "linear-gradient(to bottom, #465a90, #1e3470)",
             "colourSecondary": "linear-gradient(to bottom, #465a90, #1e3470)"
         },
         {
             "id": 2,
-            "link": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html",
-            "company": "Cisco",
-            "title": "CCNA Level 1, networking and switching",
-            "dateFrom": "2018",
-            "dateTo": "Current",
+            "link": "https://github.com/giorgiagiro/quizTime",
+            "company": "Aalto University",
+            "title": "Quiz app with Flutter",
+            "dateFrom": "September 2022",
+            "dateTo": "October 2022",
             "info": [
-                "Basic networking knowledge and tcp stack. "
+                "Device Agnostic Design course project",
+                "Application developed using Dart programming language and the framework Flutter. Essentially it is a quiz application that uses a API for retrieving quiz topics, getting random questions from a given topic, and for posting answers to questions to verify if the answers are correct or not."
             ],
-            "stack": ["TCP/IP", "Networking", "ISO-OSI"],
+            "stack": ["Flutter", "Dart", "Riverpod", "API"],
             "logowidth": 80,
             "colourPrimary": "linear-gradient(to bottom, #F6D5F7, #FBE9D7)",
             "colourSecondary": "linear-gradient(to bottom, #F6D5F7, #FBE9D7)"
         },
         {
             "id": 0,
-            "link": "https://academy.hackthebox.com/",
-            "company": "Hack the Box",
-            "title": "Cybersecurity training",
-            "dateFrom": "November 2021",
-            "dateTo": "current",
+            "link": "https://github.com/giorgiagiro/dad-project2",
+            "company": "Aalto University",
+            "title": "Online web store",
+            "dateFrom": "September 2022",
+            "dateTo": "October 2022",
             "info": [
-                "todo",
-                "todo"
+                "Device Agnostic Design course project",
+                "Frontend of an online web store, categories and products, can add items to cart, remove items from cart, and checkout. The application is developed using Flutter and Dart."
             ],
-            "stack": ["TODO", ""],
-            "logoheight": 80,
-            "colourPrimary": "linear-gradient(to bottom, #a1f100, #1c8513)",
-            "colourSecondary": "linear-gradient(to bottom, #a1f100, #1c8513)"
+            "stack": ["Flutter", "Dart", "Riverpod", "API"],
+            "logoheight": 65,
+            "colourPrimary": "linear-gradient(to bottom, #5072A7, #B9D9EB)",
+            "colourSecondary": "linear-gradient(to bottom, #5072A7, #B9D9EB)"
         }
     ]
 }

@@ -7,25 +7,25 @@ import experienceData from "../../data/experience.json";
 import extraData from "../../data/extra.json";
 
 const Experience = (props) => {
-    console.log(props)
-    const data = !props.extra ? experienceData : extraData;
-    const title = "Experience"
-    return (
-        <Section title={title} classname="Experience">
-            <div className="experience-content">
-                <ul className="experience-list">
-                    {" "}
-                    {data.experience.reverse().map((exp) => (
-                        <li key={`experience-${exp.company}`}>
-                            <Fade bottom duration={1000} distance="20px">
-                                <ExperienceCard experience={exp} />{" "}
-                            </Fade>{" "}
-                        </li>
-                    ))}{" "}
-                </ul>{" "}
-            </div>{" "}
-        </Section>
-    );
+  console.log(props);
+  const data = !props.extra ? experienceData : extraData;
+  const title = !props.extra ? "Experience" : "Projects";
+  return (
+    <Section title={title} classname="Experience">
+      <div className="experience-content">
+        <ul className="experience-list">
+          {" "}
+          {data.experience.reverse().map((exp) => (
+            <li key={`experience-${exp.company}`}>
+              <Fade bottom duration={1000} distance="20px">
+                <ExperienceCard experience={exp} />{" "}
+              </Fade>{" "}
+            </li>
+          ))}{" "}
+        </ul>{" "}
+      </div>{" "}
+    </Section>
+  );
 };
 
 export default Experience;

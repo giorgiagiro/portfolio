@@ -37,11 +37,11 @@ const Navbar = () => {
             PROJECTS
           </Link>
         </div> 
-       {/* <div className="navlink-wrapper">
+        <div className="navlink-wrapper">
           <Link to="contact" spy={true} smooth={true} duration={500}>
             CONTACT
           </Link>
-        </div>*/}
+        </div>
       </div>
       <div className="hamburger">
         <div
