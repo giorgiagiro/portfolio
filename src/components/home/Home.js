@@ -8,7 +8,7 @@ import Typewriter from "typewriter-effect";
 import ArrowDropDownCircleIcon from "@material-ui/icons/ArrowDropDownCircle";
 import Navbar from "../navbar/Navbar";
 import config from "../../config";
-import profile from "../../images/profile-bgdark.png";
+import profile from "../../images/profileNew.JPG";
 import linkedinLogo from "../../images/social/linkedin.png";
 import githubLogo from "../../images/social/github.png";
 import cvLogo from "../../images/social/resume.png";
@@ -30,6 +30,7 @@ const Home = () => {
           params={config.particles}
           init={particlesInit}
         />
+
         <div className={`greeting${!imageLoaded ? " hide" : ""}`}>
           <Fade bottom distance="40px">
             <img
@@ -61,109 +62,110 @@ const Home = () => {
                 }}
               />
             </h1>
-
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            >
-              <Bounce cascade>
-                <div className="links">
-                  <a
-                    href="https://www.linkedin.com/in/giorgia-giro/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      className="logoImage"
-                      src={linkedinLogo}
-                      alt="Linkedin Logo"
-                      width="50px"
-                    />
-                  </a>
-                </div>
-              </Bounce>
-              <Bounce cascade>
-                <div className="links">
-                  <a
-                    href="https://github.com/giorgiagiro"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      className="logoImage"
-                      src={githubLogo}
-                      alt="Github Logo"
-                      width="50px"
-                    />
-                  </a>
-                </div>
-              </Bounce>
-              <Bounce cascade>
-                <div className="links">
-                  <a
-                    href="mailto:giorgia.giro@gmail.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      className="logoImage"
-                      src={mailLogo}
-                      alt="Mail Logo"
-                      width="50px"
-                    />
-                  </a>
-                </div>
-              </Bounce>
-              <Bounce cascade>
-                <div className="links">
-                  <a
-                    href="./GiorgiaGiroResume.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      className="logoImage"
-                      src={cvLogo}
-                      alt="CV Logo"
-                      width="50px"
-                    />
-                  </a>
-                </div>
-              </Bounce>
-            </div>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            ></div>
-            <div className="scroll-down">
-              <Link
-                activeClass="active"
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={-63}
-                duration={500}
-              >
-                <ArrowDropDownCircleIcon
-                  fontSize="large"
-                  style={{
-                    pointerEvents: "fill",
-                    cursor: "pointer",
-                  }}
-                />
-              </Link>
-            </div>
           </Fade>
         </div>
+        <div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <Bounce cascade>
+              <div className="links">
+                <a
+                  href="https://www.linkedin.com/in/giorgia-giro/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="logoImage"
+                    src={linkedinLogo}
+                    alt="Linkedin Logo"
+                    width="50px"
+                  />
+                </a>
+              </div>
+            </Bounce>
+            <Bounce cascade>
+              <div className="links">
+                <a
+                  href="https://github.com/giorgiagiro"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="logoImage"
+                    src={githubLogo}
+                    alt="Github Logo"
+                    width="50px"
+                  />
+                </a>
+              </div>
+            </Bounce>
+            <Bounce cascade>
+              <div className="links">
+                <a
+                  href="mailto:giorgia.giro@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="logoImage"
+                    src={mailLogo}
+                    alt="Mail Logo"
+                    width="50px"
+                  />
+                </a>
+              </div>
+            </Bounce>
+            <Bounce cascade>
+              <div className="links">
+                <a
+                  href="./GiorgiaGiroResume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="logoImage"
+                    src={cvLogo}
+                    alt="CV Logo"
+                    width="50px"
+                  />
+                </a>
+              </div>
+            </Bounce>
+          </div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        ></div>
+        <div className="scroll-down">
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-63}
+            duration={500}
+          >
+            <ArrowDropDownCircleIcon
+              fontSize="large"
+              style={{
+                pointerEvents: "fill",
+                cursor: "pointer",
+              }}
+            />
+          </Link>
+        </div>
+
         <Navbar />
       </div>
-      
     </div>
   );
 };

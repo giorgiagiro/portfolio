@@ -14,6 +14,7 @@ import css from "./../../images/skills/CSS3.png";
 import premiere from "./../../images/skills/premiere.png";
 import unity from "./../../images/skills/Unity_logo.png";
 import dvista from "./../../images/skills/3dvista.png";
+import figma from "./../../images/skills/figma.png";
 
 
 export const getSkill = (names) => {
@@ -69,9 +70,9 @@ export const skills = [{
         img: python,
     },
     {
-        name: "Java",
-        url: "https://www.oracle.com/eg/java/technologies/downloads/",
-        img: java,
+        name: "Figma",
+        url: "https://www.figma.com/",
+        img: figma,
     },
     {
         name: "3D Vista",
