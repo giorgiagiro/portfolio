@@ -49,6 +49,13 @@ module.exports = {
                     distance: 500,
                     links: { opacity: 0.7 },
                 },
+                bubble: {
+                    distance: 200,
+                    size: 17,
+                    duration: 1,
+                    opacity: 0.8,
+                    speed: 2,
+                  },
             },
         },
         retina_detect: true,

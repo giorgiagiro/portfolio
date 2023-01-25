@@ -14,7 +14,7 @@ const About = () => {
           <div className="about-text">
             <h2>Quick life summary:</h2>
             <>
-              Hello, I am Giorgia, I am 22 years old, I am a double-degree student at Aalto
+              Hello, I am Giorgia, I am 23 years old, I am a double-degree student at Aalto
               University. During my studies in Information and Business Organisation Engineering I had the opportunity to learn and develop new skills while figuring out what are my passions.
             </>
             <br></br>
