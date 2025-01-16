@@ -8,7 +8,7 @@ import Typewriter from "typewriter-effect";
 import ArrowDropDownCircleIcon from "@material-ui/icons/ArrowDropDownCircle";
 import Navbar from "../navbar/Navbar";
 import config from "../../config";
-import profile from "../../images/profileNew.JPG";
+import profile from "../../images/profileNew.png";
 import linkedinLogo from "../../images/social/linkedin.png";
 import githubLogo from "../../images/social/github.png";
 import cvLogo from "../../images/social/resume.png";
@@ -49,9 +49,10 @@ const Home = () => {
               <Typewriter
                 options={{
                   strings: [
-                    "I studied Computer Science Engineering💻.",
-                    "I am studying Human Computer Interaction and Design📱.",
-                    "I love video editing🎥.",
+                    "I have a degree in Computer Science Engineering💻",
+                    "I have a degree in Human Computer Interaction and Design📱",
+                    "I love video editing🎥",
+                    "I play tennis🎾",
                   ],
                   autoStart: true,
                   loop: true,

@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.ad11a1e1.chunk.css",
-    "main.js": "/static/js/main.c9991c2f.chunk.js",
-    "main.js.map": "/static/js/main.c9991c2f.chunk.js.map",
+    "main.js": "/static/js/main.42068c29.chunk.js",
+    "main.js.map": "/static/js/main.42068c29.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.351e9c47.js",
     "runtime-main.js.map": "/static/js/runtime-main.351e9c47.js.map",
-    "static/js/2.f6880a97.chunk.js": "/static/js/2.f6880a97.chunk.js",
-    "static/js/2.f6880a97.chunk.js.map": "/static/js/2.f6880a97.chunk.js.map",
+    "static/js/2.265ecee9.chunk.js": "/static/js/2.265ecee9.chunk.js",
+    "static/js/2.265ecee9.chunk.js.map": "/static/js/2.265ecee9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0ba60c876fb7e81d6310a1954b3ceaeb.js": "/precache-manifest.0ba60c876fb7e81d6310a1954b3ceaeb.js",
+    "precache-manifest.b2c48bc2f3ebb7ce3965438d850e5160.js": "/precache-manifest.b2c48bc2f3ebb7ce3965438d850e5160.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.ad11a1e1.chunk.css.map": "/static/css/main.ad11a1e1.chunk.css.map",
-    "static/js/2.f6880a97.chunk.js.LICENSE.txt": "/static/js/2.f6880a97.chunk.js.LICENSE.txt",
-    "static/js/main.c9991c2f.chunk.js.LICENSE.txt": "/static/js/main.c9991c2f.chunk.js.LICENSE.txt",
+    "static/js/2.265ecee9.chunk.js.LICENSE.txt": "/static/js/2.265ecee9.chunk.js.LICENSE.txt",
+    "static/js/main.42068c29.chunk.js.LICENSE.txt": "/static/js/main.42068c29.chunk.js.LICENSE.txt",
     "static/media/3dvista.png": "/static/media/3dvista.52c39b06.png",
     "static/media/CSS3.png": "/static/media/CSS3.6457bd26.png",
     "static/media/HTML5.png": "/static/media/HTML5.9729eb5a.png",
@@ -32,16 +32,17 @@
     "static/media/js-logo.png": "/static/media/js-logo.69b4d957.png",
     "static/media/photoshop.png": "/static/media/photoshop.5ef88fc6.png",
     "static/media/premiere.png": "/static/media/premiere.21ab1cec.png",
-    "static/media/profileNew.JPG": "/static/media/profileNew.b75fb875.JPG",
+    "static/media/profileNew.png": "/static/media/profileNew.4acebaf9.png",
     "static/media/psykinetic.png": "/static/media/psykinetic.9c1952ca.png",
     "static/media/python_logo.png": "/static/media/python_logo.ebec3301.png",
     "static/media/react-logo.png": "/static/media/react-logo.254e2aad.png",
+    "static/media/sumoapps.png": "/static/media/sumoapps.65271866.png",
     "static/media/xd.png": "/static/media/xd.30d91e9a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.351e9c47.js",
-    "static/js/2.f6880a97.chunk.js",
+    "static/js/2.265ecee9.chunk.js",
     "static/css/main.ad11a1e1.chunk.css",
-    "static/js/main.c9991c2f.chunk.js"
+    "static/js/main.42068c29.chunk.js"
   ]
 }

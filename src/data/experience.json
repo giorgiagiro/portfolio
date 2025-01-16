@@ -45,6 +45,22 @@
             "logowidth": 80,
             "colourPrimary": "linear-gradient(to bottom, #17B169, #ACE1AF)",
             "colourSecondary": "linear-gradient(to bottom, #17B169, #ACE1AF)"
+        },
+        {
+            "id": 3,
+            "link": "https://sumo.app/",
+            "company": "Sumo Apps",
+            "title": "Flutter Developer Intern",
+            "dateFrom": "May 2023",
+            "dateTo": "blbla",
+            "info": [
+                "Internship developing interactive Virtual Tours through the use of commercial software and creating dynamic interfaces through the integration of js code.",
+                "In this company I had the opportunity to write my bachelor thesis \"Development and use of Virtual Tours for an immersive user experience.\""
+            ],
+            "stack": ["Flutter", "Dart", "Figma", "Git", "Github"],
+            "logowidth": 80,
+            "colourPrimary": "linear-gradient(to bottom, #17B169, #ACE1AF)",
+            "colourSecondary": "linear-gradient(to bottom, #17B169, #ACE1AF)"
         }
     ]
 }
