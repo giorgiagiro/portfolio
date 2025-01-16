@@ -2,6 +2,9 @@
     .profile {
         width: 180px !important;
         height: 180px !important;
+        object-fit: cover;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -9,6 +12,10 @@
     .profile {
         width: 300px !important;
         height: 300px !important;
+        object-fit: cover;
+        justify-content: center;
+        align-items: center;
+        
     }
 }
 
@@ -16,6 +23,9 @@
     .profile {
         width: 100px;
         height: 100px;
+        object-fit: cover;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -71,6 +81,9 @@
     /* -webkit-filter: drop-shadow(2px 1px 0 dodgerblue) drop-shadow(-1px -1px 0 dodgerblue); */
     /* filter: drop-shadow(2px 2px 0 dodgerblue) drop-shadow(-2px -2px 0 dodgerblue) drop-shadow(-2px 2px 0 dodgerblue) drop-shadow(2px -2px 0 dodgerblue); */
     border: 0.35rem solid #E64C3C;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
 }
 
 .greeting-text {
