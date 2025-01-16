@@ -38,7 +38,8 @@
             "dateFrom": "April 2021",
             "dateTo": "June 2021",
             "info": [
-                "Internship developing interactive Virtual Tours through the use of commercial software and creating dynamic interfaces through the integration of js code.",
+                "Used React to develop consistent and scalable interfaces, enhancing the development process to support future feature expansions and maintenance",
+                "Employed Python and Pandas to automate data extraction from Excel spreadsheets, efficienly populating JSON files for application use.",
                 "In this company I had the opportunity to write my bachelor thesis \"Development and use of Virtual Tours for an immersive user experience.\""
             ],
             "stack": ["React.js", "Python", "3DVista", "After Effects", "Illustrator","Filezilla"],
@@ -52,15 +53,16 @@
             "company": "Sumo Apps",
             "title": "Flutter Developer Intern",
             "dateFrom": "May 2023",
-            "dateTo": "blbla",
+            "dateTo": "present",
             "info": [
-                "Internship developing interactive Virtual Tours through the use of commercial software and creating dynamic interfaces through the integration of js code.",
-                "In this company I had the opportunity to write my bachelor thesis \"Development and use of Virtual Tours for an immersive user experience.\""
+                "Collaborated in the development of a new app using Flutter, focusing on crafting scalable front-end components with a forward-thinking approach to code architecture.\"",
+                "Organized and developed prototypes, conducted user testing, and facilitated interviews to refine app functionality and user experience.",
+                "Developed and tested prototypes using Flutter, aligning with gamification principles to enhance user interaction."
             ],
             "stack": ["Flutter", "Dart", "Figma", "Git", "Github"],
             "logowidth": 80,
-            "colourPrimary": "linear-gradient(to bottom, #17B169, #ACE1AF)",
-            "colourSecondary": "linear-gradient(to bottom, #17B169, #ACE1AF)"
+            "colourPrimary": "linear-gradient(to bottom, #4c9bad, #6de4ff)",
+            "colourSecondary": "linear-gradient(to bottom, #4c9bad, #6de4ff)"
         }
     ]
 }

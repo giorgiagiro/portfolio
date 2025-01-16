@@ -14,8 +14,9 @@ const About = () => {
           <div className="about-text">
             <h2>Quick life summary:</h2>
             <>
-              Ciao! I am Giorgia, I am 25 years old, I am a double-degree student at Aalto
-              University. During my studies in Information and Business Organisation Engineering I had the opportunity to learn and develop new skills while figuring out what are my passions.
+              Ciao! I am Giorgia, I am 25 years old, I am a double-degree graduate from Politecnico di Milano and Aalto
+              University. During my studies in Information and Business Organisation Engineering I had the opportunity to learn and develop new skills while figuring out what are my passions. I got involved in various projects, that I worked on alone or with
+              some collaborators.
             </>
             <br></br>
             <>
@@ -43,7 +44,7 @@ const About = () => {
               >
                 European Institute of Tecnology
               </a>{" "}
-              and I am currently enrolled in the second and last year. I choose this track by combining my
+              and I recently graduated. I choose this track by combining my
               Computer Science background and my passion for design.
 
             </>

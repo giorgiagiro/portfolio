@@ -81,9 +81,8 @@
     /* -webkit-filter: drop-shadow(2px 1px 0 dodgerblue) drop-shadow(-1px -1px 0 dodgerblue); */
     /* filter: drop-shadow(2px 2px 0 dodgerblue) drop-shadow(-2px -2px 0 dodgerblue) drop-shadow(-2px 2px 0 dodgerblue) drop-shadow(2px -2px 0 dodgerblue); */
     border: 0.35rem solid #E64C3C;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
+   
+    
 }
 
 .greeting-text {
