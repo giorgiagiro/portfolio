@@ -59,7 +59,7 @@
                 "Organized and developed prototypes, conducted user testing, and facilitated interviews to refine app functionality and user experience.",
                 "Developed and tested prototypes using Flutter, aligning with gamification principles to enhance user interaction."
             ],
-            "stack": ["Flutter", "Dart", "Figma", "Git", "Github"],
+            "stack": ["Flutter", "Dart", "Figma", "Git", "Github", "Gamification", "Prototyping", "UI/UX"],
             "logowidth": 80,
             "colourPrimary": "linear-gradient(to bottom, #4c9bad, #6de4ff)",
             "colourSecondary": "linear-gradient(to bottom, #4c9bad, #6de4ff)"

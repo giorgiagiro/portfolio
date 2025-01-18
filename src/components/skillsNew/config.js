@@ -8,13 +8,14 @@ import java from "./../../images/skills/java.png";
 import ae from "./../../images/skills/aftereffects.png";
 import ps from "./../../images/skills/photoshop.png";
 import ai from "./../../images/skills/illustrator.png";
-import xd from "./../../images/skills/xd.png";
+//import xd from "./../../images/skills/xd.png";
 import c from "./../../images/skills/c_logopng.png";
 import css from "./../../images/skills/CSS3.png";
 import premiere from "./../../images/skills/premiere.png";
 import unity from "./../../images/skills/Unity_logo.png";
 import dvista from "./../../images/skills/3dvista.png";
 import figma from "./../../images/skills/figma.png";
+import nodejs from "./../../images/skills/nodejs.png";
 
 
 export const getSkill = (names) => {
@@ -60,6 +61,11 @@ export const skills = [{
         img: React,
     },
     {
+        name: "Node.js",
+        url: "https://nodejs.org/",
+        img: nodejs,
+    },
+    {
         name: "Flutter",
         url: "https://flutter.dev/",
         img: Flutter,
@@ -98,11 +104,6 @@ export const skills = [{
         name: "Adobe Illustrator",
         url: "https://www.adobe.com/in/products/illustrator.html",
         img: ai,
-    },
-    {
-        name: "Adobe XD",
-        url: "https://www.adobe.com/in/products/xd.html",
-        img: xd,
     },
     {
         name: "Adobe After Effects",

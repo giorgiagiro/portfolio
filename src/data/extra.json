@@ -1,6 +1,6 @@
 {
     "experience": [{
-            "id": 1,
+            "id": 4,
             "link": "https://vrtour.neoinfinity.it/giorgia_giro/",
             "company": "Neoinfinity",
             "title": "Virtual Tour",
@@ -10,13 +10,13 @@
                 "Virtual tour developed for the company NeoInfinity, using React.js, python and 3DVista",
                 "Bachelor's thesis project"
             ],
-            "stack": ["React.js", "Python", "3DVista", "Illustrator", "AfterEffects", "FIlezilla"],
+            "stack": ["React.js", "Python", "3DVista", "Illustrator", "AfterEffects", "Filezilla"],
             "logowidth": 80,
             "colourPrimary": "linear-gradient(to bottom, #465a90, #1e3470)",
             "colourSecondary": "linear-gradient(to bottom, #465a90, #1e3470)"
         },
         {
-            "id": 2,
+            "id": 5,
             "link": "https://github.com/giorgiagiro/quizTime",
             "company": "Aalto University",
             "title": "Quiz app with Flutter",
@@ -32,7 +32,7 @@
             "colourSecondary": "linear-gradient(to bottom, #F6D5F7, #FBE9D7)"
         },
         {
-            "id": 0,
+            "id": 3,
             "link": "https://github.com/giorgiagiro/dad-project2",
             "company": "Aalto University",
             "title": "Online web store",

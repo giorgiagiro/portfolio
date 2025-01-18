@@ -1,0 +1,52 @@
+{"experience": [
+    {
+        "id": 0,
+        "link": "https://napod-nasa-react-app.netlify.app/",
+        "company": "nasa",
+        "title": "NASA React app",
+        "dateFrom": "January 2025",
+        "dateTo": "",
+        "info": [
+            "Retrieving data from NASA API",
+            "Showing Asteroid of the day"
+        ],
+        "stack": ["React.js", "Vite", "Node.js", "javascript", "API"],
+        "logoheight": 65,
+        "colourPrimary":"linear-gradient(to bottom, #0B3D91, #14213D)",
+        "colourSecondary": "linear-gradient(to bottom, #0B3D91, #14213D)"
+    },
+    {
+        "id": 1,
+        "link": "https://gg-workout-sw.netlify.app/",
+        "company": "gym",
+        "title": "Gym App",
+        "dateFrom": "January 2025",
+        "dateTo": "",
+        "info": [
+            "Gym calculator app",
+            "React app"
+        ],
+        "stack": ["React.js", "Vite", "Node.js", "Tailwind", "javascript", "API"],
+            "logowidth": 80,
+            "colourPrimary":"linear-gradient(to bottom, #ADD8E6, #00509E)",
+            "colourSecondary": "linear-gradient(to bottom, #ADD8E6, #00509E)"
+
+        },
+        {
+            "id": 2,
+            "link": "https://gg-pokedex-react.netlify.app/",
+            "company": "pokeball",
+            "title": "Pokedex App",
+            "dateFrom": "January 2025",
+            "dateTo": "",
+            "info": [
+                "Pokedex React app",
+                "Avaialable on github"
+            ],
+            "stack": ["React.js", "Vite", "Node.js", "javascript", "API"],
+            "logowidth": 80,
+            "colourPrimary": "linear-gradient(to bottom,#F4B8B8, #A63A4A )",
+            "colourSecondary": "linear-gradient(to bottom,#F4B8B8, #A63A4A )"
+        }
+    ]
+}

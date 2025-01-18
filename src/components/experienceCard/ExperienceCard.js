@@ -3,6 +3,7 @@ import './ExperienceCard.css'
 
 const ExperienceCard = ({ experience }) => {
   let { link, company, title, dateFrom, dateTo, info, stack } = experience
+
   return (
     <a
       className="experience-link"
@@ -17,7 +18,11 @@ const ExperienceCard = ({ experience }) => {
               className="experience-bg"
               style={{ background: experience.colourPrimary }}
             ></div>
-            <h2>{company}</h2>
+            <h2>
+              {
+              //company
+              }
+            </h2>
             <div className="image-wrapper">
               <div
                 className="experience-bg logo-bg"
