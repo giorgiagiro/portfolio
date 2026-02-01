@@ -14,6 +14,7 @@ const Experience = (props) => {
 
 
   if(!props.extra){
+    console.log("experienceData: ",experienceData)
     data = experienceData
     title = "Experience"
   }

@@ -12,14 +12,13 @@ import profile from "../../images/profileNew.png";
 import linkedinLogo from "../../images/social/linkedin.png";
 import githubLogo from "../../images/social/github.png";
 import cvLogo from "../../images/social/resume.png";
-import { loadFull } from "tsparticles";
 import { useCallback } from "react";
 import mailLogo from "../../images/social/mail.png";
 
 const Home = () => {
   const particlesInit = useCallback(async (engine) => {
+    // For older tsparticles, just initialize the engine
     console.log(engine);
-    await loadFull(engine);
   }, []);
   const [imageLoaded, setImageLoaded] = useState(false);
   return (

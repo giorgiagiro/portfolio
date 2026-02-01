@@ -53,7 +53,7 @@
             "company": "Sumo Apps",
             "title": "Software Developer",
             "dateFrom": "May 2023",
-            "dateTo": "present",
+            "dateTo": "Apr 2025",
             "info": [
                 "Collaborated in the development of a new app using Flutter, focusing on crafting scalable front-end components with a forward-thinking approach to code architecture.\"",
                 "Organized and developed prototypes, conducted user testing, and facilitated interviews to refine app functionality and user experience.",
@@ -63,6 +63,23 @@
             "logowidth": 80,
             "colourPrimary": "linear-gradient(to bottom, #4c9bad, #6de4ff)",
             "colourSecondary": "linear-gradient(to bottom, #4c9bad, #6de4ff)"
+        },
+        {
+            "id": 4,
+            "link": "https://www.reply.com/iriscube-reply/it",
+            "company": "Iriscube Reply",
+            "title": "IT Consultant",
+            "dateFrom": "May 2025",
+            "dateTo": "present",
+            "info": [
+                "Collaborated in the development of a new app using React, focusing on crafting scalable front-end components with a forward-thinking approach to code architecture.\"",
+                "Organized and developed prototypes, conducted testing, to refine app functionality and user experience.",
+                "Developed and tested websites using React, aligning with principles to enhance user interaction."
+            ],
+            "stack": ["React", "Javascript", "Figma", "Git", "Github", "Jenkins", "Devop", "UI/UX"],
+            "logowidth": 80,
+            "colourPrimary": "linear-gradient(to bottom, #024f5a, #058a9e)",
+            "colourSecondary": "linear-gradient(to bottom, #024f5a, #058a9e)"
         }
     ]
 }

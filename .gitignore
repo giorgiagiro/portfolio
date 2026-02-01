@@ -127,3 +127,8 @@ yarn-debug.log*
 yarn-error.log*
 yarn.lock
 .firebase/hosting.YnVpbGQ.cache
+node
+package-lock.json
+.venv/
+.vscode/
+.idea/
